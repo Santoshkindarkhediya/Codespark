@@ -1,0 +1,28 @@
+/* Default styles for larger screens */
+/* Add your default styles here */
+
+/* Media query for tablets and small laptops */
+@media only screen and (max-width: 1024px) {
+    /* Adjustments for tablets and small laptops */
+   .card{
+    width: 275px;
+   }
+
+   @media only screen and (max-width: 1024px) {
+    /* Adjustments for tablets and small laptops */
+   .card{
+    width: 250px;
+   }
+
+
+  /* Media query for smartphones and smaller tablets */
+  @media only screen and (max-width: 768px) {
+    /* Adjustments for smartphones and smaller tablets */
+   
+  
+  /* Media query for very small devices like small smartphones */
+  @media only screen and (max-width: 576px) {
+    /* Adjustments for very small devices */
+    .card{
+        width: 250px;
+       }
